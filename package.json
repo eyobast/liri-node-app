@@ -1,0 +1,29 @@
+{
+  "name": "npm_twitter_demo",
+  "version": "1.0.0",
+  "description": "demonstration npm",
+  "main": "liri.js",
+  "scripts": {
+    "start": "node liri.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyobast/liri-node-app.git"
+  },
+  "keywords": [
+    "test",
+    "twit"
+  ],
+  "author": "eyob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyobast/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/eyobast/liri-node-app#readme",
+  "dependencies": {
+    "inquirer": "^3.2.2",
+    "node-spotify-api": "^1.0.7",
+    "twit": "^2.2.9"
+  }
+}
